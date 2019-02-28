@@ -1,0 +1,48 @@
+.ogran {
+    margin: 0px 20px;
+}
+
+.mycollapse {
+    visibility: hidden;
+}
+
+#nonevisible {
+    display: none;
+}
+
+.mycolor {
+    background-color: gray;
+}
+
+form {
+    padding-top: 20px;
+}
+
+button {
+    outline: none !important;
+}
+
+
+input::placeholder {
+  color: white !important;
+}
+
+
+@media (max-width: 767px) {
+    
+    .mycollapse {
+        visibility: visible !important;
+    }
+    
+    #udali, #udali1, #udali2 {
+/*      visibility: hidden !important;*/
+        display: none !important;
+    }
+}
+
+@media (min-width: 767px) {
+    
+    form {
+        display: none !important;
+    }
+}

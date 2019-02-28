@@ -1,0 +1,57 @@
+.fab {
+    font-size: 50px;
+}
+
+.navbar {
+	min-width: 600px;
+}
+
+.popular {
+    margin: 0px 10px !important;
+}
+
+.ogran, .mysearch {
+    margin: 0px 10px !important;
+}
+
+nav {
+    height: 60px;
+}
+
+button {
+    border-color: pink !important;
+}
+
+.poisk, .vhod {
+    margin-left: 200px;
+}
+
+.knopka {
+    padding-left: 50px !important;
+}
+
+.strelka {
+    padding-left: 0px !important;
+}
+
+
+button:hover {
+    background-color: mediumvioletred !important;
+}
+
+
+@media (max-width: 1100px) {
+    button {
+    display: none !important;
+    }
+    
+    .navbar-brand, .vhod {
+    padding-left: 0px;
+    }
+}
+    
+@media (max-width: 700px) {    
+    .popular, .strelka, .vihod {
+        display: none !important;
+    }
+}
